@@ -26,4 +26,4 @@ void loop(void) {
   Serial.print(c, DEC); Serial.print(" ");
   Serial.print(millis() - startTime, DEC); Serial.println("");
   delay(200);
-}
+};
