@@ -10,7 +10,7 @@ void setup(void) {
 
     tcs.begin();
     delay(1000);
-    //da aggiungere conferma via led
+    //da aggiungere conferma via Led
     startTime = millis();
 }
 
