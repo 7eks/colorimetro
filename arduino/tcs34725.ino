@@ -10,7 +10,7 @@ void setup(void) {
 
     tcs.begin();
     delay(1000);
-    //da aggiungere conferma via Led
+    //da aggiungere conferma via led
     startTime = millis();
 }
 
@@ -26,4 +26,4 @@ void loop(void) {
   Serial.print(c, DEC); Serial.print(" ");
   Serial.print(millis() - startTime, DEC); Serial.println("");
   delay(200);
-};
+}
