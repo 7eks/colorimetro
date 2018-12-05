@@ -2,9 +2,11 @@
 #include "Adafruit_TCS34725.h"
 
 
-Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
+Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_154MS, TCS34725_GAIN_16X);
 long startTime;
-
+int redvalue = 0;
+int bluevalue = 255;
+int greenvalue = 255;
 int redPin = 9;
 int greenPin = 10;
 int bluePin = 11;
@@ -45,9 +47,9 @@ void loop(void) {
 
 while(digitalRead(runstatus) == LOW)
 {
-  analogWrite(redPin,0);
-  analogWrite(greenPin,0);
-  analogWrite(bluePin,0);
+  analogWrite(redPin,redvalue);
+  analogWrite(greenPin,greenvalue);
+  analogWrite(bluePin,bluevalue);
   digitalWrite(rele,1);
   startTime = millis(); 
   while(digitalRead(runstatus) == LOW)
@@ -59,7 +61,7 @@ while(digitalRead(runstatus) == LOW)
   Serial.print(b, DEC); Serial.print(" ");
   Serial.print(c, DEC); Serial.print(" ");
   Serial.print(millis() - startTime, DEC); Serial.println("");
-  delay(188);
+  delay(100);
 }
 digitalWrite(rele,0);
 analogWrite(redPin,255);
