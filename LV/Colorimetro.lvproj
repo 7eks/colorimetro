@@ -56,11 +56,11 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Colorimetro" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{90D0083E-A09F-4FEE-A566-B43F8104B907}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{78C1325B-DFA6-4D4C-8A4D-AEED1A34E8DA}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0266D1AA-4ACE-412B-813D-026C5B13C03A}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{B0DA1E3B-1970-495B-A9B5-841861A50C6B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C2A688F7-27BC-459F-9023-17A249EA05A6}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BD29D342-C0E0-4C97-9AEE-EA2433B3D218}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Colorimetro</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -68,8 +68,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">../exe</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{AB1896ED-F3E8-44C1-B8FD-6F193F81D005}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C4236466-1E25-46A8-A3B6-58A75D60EACB}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Colorimetro.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/NI_AB_PROJECTNAME.exe</Property>
@@ -80,7 +80,7 @@
 				<Property Name="Destination[1].path" Type="Path">../exe/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{25E2CE4E-B958-4512-988A-7CD481DFD7F7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{70EBC5A9-1F62-46DC-90F2-16B91F15D3E7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Colorimetro.vi</Property>
@@ -91,7 +91,7 @@
 				<Property Name="TgtF_internalName" Type="Str">Colorimetro</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
 				<Property Name="TgtF_productName" Type="Str">Colorimetro</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{7D1A82A9-DCAB-482D-B543-4BB5AA3FFD25}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D4EB93C0-CD4A-4C40-BC57-4C462E416CE9}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Colorimetro.exe</Property>
 			</Item>
 		</Item>
